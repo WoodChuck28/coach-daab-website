@@ -3,11 +3,12 @@
   "serviceConfiguration": {
     "apiName": "swimmersapi",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "/tmp/amplify-d156ebb8-84a1-457b-9e41-02f93c91fdc5/amplify/backend/api/swimmersapi/schema.graphql",
+    "gqlSchemaPath": "C:\\Users\\17703\\Sandbox\\ReactApps\\coachdaabapp\\amplify\\backend\\api\\swimmersapi\\schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "keyDescription": "api key description",
-      "expirationTime": 30
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-07-23T13:34:03.853Z",
+      "keyDescription": "api key description"
     },
     "conflictResolution": {
       "defaultResolutionStrategy": {

@@ -14,8 +14,6 @@ function Home() {
     fetchSwimmers();
   }, []);
 
- 
-
   async function fetchSwimmers() {
     const apiData = await API.graphql({ query: listSwimmers });
     setSwimmers(apiData.data.listSwimmers.items);
