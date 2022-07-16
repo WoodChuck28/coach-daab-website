@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify7f2f8162e8864-staging-113916-authRole",
+      "UnauthRoleArn": "arn:aws:iam::272792018311:role/amplify-amplify7f2f8162e8864-staging-113916-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::272792018311:role/amplify-amplify7f2f8162e8864-staging-113916-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplify7f2f8162e8864-staging-113916-deployment",
+      "UnauthRoleName": "amplify-amplify7f2f8162e8864-staging-113916-unauthRole",
+      "StackName": "amplify-amplify7f2f8162e8864-staging-113916",
+      "StackId": "arn:aws:cloudformation:us-east-2:272792018311:stack/amplify-amplify7f2f8162e8864-staging-113916/eccd66e0-04fb-11ed-9b6f-02f10f5963a8",
+      "AmplifyAppId": "d1l84l8rvbctq5"
+    },
+    "categories": {
+      "auth": {
+        "coachdaabwebsite763c39d2": {}
+      }
+    }
+  }
+}

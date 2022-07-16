@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "swimmersapi",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\17703\\Sandbox\\ReactApps\\coachdaabapp\\amplify\\backend\\api\\swimmersapi\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
