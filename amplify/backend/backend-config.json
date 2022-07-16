@@ -42,5 +42,11 @@
         }
       }
     }
+  },
+  "storage": {
+    "swimmertimes": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }

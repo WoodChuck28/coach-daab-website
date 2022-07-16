@@ -4,6 +4,9 @@ input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONL
 
 type Swimmer @model {
   id: ID!
-  name: String!
-  description: String
+  lname: String!
+  fname: String!
+  swimevent: String!
+  time: String!
+  date: String!
 }

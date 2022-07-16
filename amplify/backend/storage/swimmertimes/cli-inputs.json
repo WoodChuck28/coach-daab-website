@@ -1,0 +1,22 @@
+{
+  "resourceName": "swimmertimes",
+  "tableName": "swimtimes",
+  "partitionKey": {
+    "fieldName": "lname",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "date",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "racetime",
+      "partitionKey": {
+        "fieldName": "time",
+        "fieldType": "string"
+      }
+    }
+  ],
+  "triggerFunctions": []
+}

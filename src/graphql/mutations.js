@@ -8,8 +8,11 @@ export const createSwimmer = /* GraphQL */ `
   ) {
     createSwimmer(input: $input, condition: $condition) {
       id
-      name
-      description
+      lname
+      fname
+      swimevent
+      time
+      date
       createdAt
       updatedAt
     }
@@ -22,8 +25,11 @@ export const updateSwimmer = /* GraphQL */ `
   ) {
     updateSwimmer(input: $input, condition: $condition) {
       id
-      name
-      description
+      lname
+      fname
+      swimevent
+      time
+      date
       createdAt
       updatedAt
     }
@@ -36,8 +42,11 @@ export const deleteSwimmer = /* GraphQL */ `
   ) {
     deleteSwimmer(input: $input, condition: $condition) {
       id
-      name
-      description
+      lname
+      fname
+      swimevent
+      time
+      date
       createdAt
       updatedAt
     }

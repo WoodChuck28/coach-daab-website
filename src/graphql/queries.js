@@ -5,8 +5,11 @@ export const getSwimmer = /* GraphQL */ `
   query GetSwimmer($id: ID!) {
     getSwimmer(id: $id) {
       id
-      name
-      description
+      lname
+      fname
+      swimevent
+      time
+      date
       createdAt
       updatedAt
     }
@@ -21,8 +24,11 @@ export const listSwimmers = /* GraphQL */ `
     listSwimmers(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
-        name
-        description
+        lname
+        fname
+        swimevent
+        time
+        date
         createdAt
         updatedAt
       }

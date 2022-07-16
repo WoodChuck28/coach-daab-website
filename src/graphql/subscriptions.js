@@ -5,8 +5,11 @@ export const onCreateSwimmer = /* GraphQL */ `
   subscription OnCreateSwimmer {
     onCreateSwimmer {
       id
-      name
-      description
+      lname
+      fname
+      swimevent
+      time
+      date
       createdAt
       updatedAt
     }
@@ -16,8 +19,11 @@ export const onUpdateSwimmer = /* GraphQL */ `
   subscription OnUpdateSwimmer {
     onUpdateSwimmer {
       id
-      name
-      description
+      lname
+      fname
+      swimevent
+      time
+      date
       createdAt
       updatedAt
     }
@@ -27,8 +33,11 @@ export const onDeleteSwimmer = /* GraphQL */ `
   subscription OnDeleteSwimmer {
     onDeleteSwimmer {
       id
-      name
-      description
+      lname
+      fname
+      swimevent
+      time
+      date
       createdAt
       updatedAt
     }
